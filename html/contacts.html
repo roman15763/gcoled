@@ -22,12 +22,69 @@
       </nav>
     </header>
 
+    <main class="contacts">
+      <h1 class="contactsr_h1">Контакти</h1>
+      <section class="contact-info">
+        <h2 class="contact-info_2">Наші Контакти</h2>
+        <ul class="contact-list">
+          <li class="contact-item">
+            <strong>Телефон:</strong>
+            <a class="contact-item_a" href="tel:+380123456789"
+              >+380 123 456 789</a
+            >
+          </li>
+          <li class="contact-item">
+            <strong>Email:</strong>
+            <a class="contact-item_a" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+          </li>
+          <li class="contact-item">
+            <strong>Адреса:</strong>
+            <a
+              class="contact-item_a"
+              href="https://www.google.com/maps?q=вул.+Прикладна,+123,+Київ,+Україна"
+              target="_blank"
+              >вул. Прикладна, 123, Київ, Україна</a
+            >
+          </li>
+        </ul>
+        <div class="map-container">
+          <iframe
+            class="map-iframe"
+            title="Google Map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.9999999999995!2d30.523399999999998!3d50.4501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce5d5e5d5e5d%3A0x5d5e5d5e5d5e5d5e!2z0LLRg9C70LjRhtGPINCS0LjQvdC40YbQsCDQmtC40ZfQsiwgMTIzLCDQmtC40ZfQsiwg0JrQvtC80L7QstCw0Y8g0KHRgNCw0LrQvtCz0L4!5e0!3m2!1suk!2sua!4v1698765432109"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+      <section class="contact-form">
+        <h2 class="contact-form_h2">Зв'яжіться з нами</h2>
+        <form class="form" action="https://example.com/submit" method="post">
+          <label for="name" class="form_label">Ім'я:</label>
+          <input type="text" id="name" name="name" class="form_input" required />
+      
+          <label for="email" class="form_label">Email:</label>
+          <input type="email" id="email" name="email" class="form_input" required />
+      
+          <label for="message" class="form_label">Повідомлення:</label>
+          <textarea id="message" name="message" class="form_textarea" rows="5" required></textarea>
+      
+          <button type="submit" class="form_button">Надіслати</button>
+      </form>
+      </section>
+    </main>
     <footer class="footer">
       <p class="footer_p">
         &copy; 2025 Світ Цікавих Фактів. Всі права захищені.
       </p>
     </footer>
-   
+
     <script src="../js/script.js"></script>
   </body>
 </html>
